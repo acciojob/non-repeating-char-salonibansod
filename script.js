@@ -1,6 +1,5 @@
 function firstNonRepeatedChar(str) {
-  
-
+   let frequencyMap = {};
   
   for (let char of str) {
     frequencyMap[char] = (frequencyMap[char] || 0) + 1;
